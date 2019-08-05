@@ -7,3 +7,8 @@
 在子类中拦截所有父类方法的调用，
 3、AOP动态代理，采用的是面相切面的代理，@AspectJ注解标识类为一个代理类，
 @Before、@After、@AfterReturn、@AfterThroable、@Around注解注释方法操作
+
+### code
+本工程演示了四种代理模式
+
+[具体参考点我哦!](https://blog.csdn.net/ShuSheng0007/article/details/80864854#_11)

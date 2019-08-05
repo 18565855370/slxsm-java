@@ -12,5 +12,13 @@
     <groupId>com.slxsm.java</groupId>
     <artifactId>proxy-pattern</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>cglib</groupId>
+            <artifactId>cglib-nodep</artifactId>
+            <version>2.1</version>
+        </dependency>
+    </dependencies>
+
 
 </project>
