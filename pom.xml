@@ -13,6 +13,7 @@
         <module>slxsm-mybatis-interceptor</module>
         <module>proxy-pattern</module>
         <module>builder-pattern</module>
+        <module>simple-factory-pattern</module>
     </modules>
 
     <dependencies>
