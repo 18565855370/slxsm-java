@@ -11,6 +11,8 @@
     <modules>
         <module>slxsm-threadpool</module>
         <module>slxsm-mybatis-interceptor</module>
+        <module>proxy-pattern</module>
+        <module>builder-pattern</module>
     </modules>
 
     <dependencies>
