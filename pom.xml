@@ -10,10 +10,12 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>slxsm-threadpool</module>
+        <module>redis-lock</module>
         <module>slxsm-mybatis-interceptor</module>
         <module>proxy-pattern</module>
         <module>builder-pattern</module>
         <module>simple-factory-pattern</module>
+        <module>slxsm-sort</module>
     </modules>
 
     <dependencies>
