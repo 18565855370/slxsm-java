@@ -16,6 +16,7 @@
         <module>builder-pattern</module>
         <module>simple-factory-pattern</module>
         <module>slxsm-sort</module>
+        <module>slxsm-cyclicbarrier</module>
     </modules>
 
     <dependencies>
