@@ -17,6 +17,10 @@
         <module>simple-factory-pattern</module>
         <module>slxsm-sort</module>
         <module>slxsm-cyclicbarrier</module>
+        <module>slxsm-cas</module>
+        <module>slxsm-unsafe</module>
+        <module>slxsm-atomic</module>
+        <module>slxsm-threadlocal</module>
     </modules>
 
     <dependencies>
