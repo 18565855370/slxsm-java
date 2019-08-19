@@ -21,6 +21,8 @@
         <module>slxsm-unsafe</module>
         <module>slxsm-atomic</module>
         <module>slxsm-threadlocal</module>
+        <module>slxsm-queue</module>
+        <module>slxsm-trace-log</module>
     </modules>
 
     <dependencies>
