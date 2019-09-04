@@ -26,6 +26,10 @@
         <module>slxsm-java-sf</module>
         <module>slxsm-rate-limit</module>
         <module>slxsm-completionfuture</module>
+        <module>slxsm-thread-result</module>
+        <module>slxsm-counter</module>
+        <module>slxsm-loc</module>
+        <module>slxsm-guava</module>
     </modules>
 
     <dependencies>
