@@ -6,7 +6,27 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="simple-factory-pattern" />
+        <module name="proxy-pattern" />
+        <module name="slxsm-thread-result" />
         <module name="slxsm-threadpool" />
+        <module name="slxsm-loc" />
+        <module name="slxsm-mybatis-interceptor" />
+        <module name="slxsm-atomic" />
+        <module name="redis-lock" />
+        <module name="java8-feature" />
+        <module name="slxsm-guava" />
+        <module name="slxsm-cas" />
+        <module name="slxsm-rate-limit" />
+        <module name="slxsm-sort" />
+        <module name="slxsm-java-sf" />
+        <module name="slxsm-cyclicbarrier" />
+        <module name="slxsm-counter" />
+        <module name="slxsm-threadlocal" />
+        <module name="builder-pattern" />
+        <module name="slxsm-unsafe" />
+        <module name="slxsm-trace-log" />
+        <module name="slxsm-queue" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />
