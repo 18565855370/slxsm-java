@@ -2,17 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80344c0f-16cf-4878-870a-065820255c6f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/slxsm-java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java8-feature/java8-feature.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java8-feature/src/main/java/com/slxsm/lambda/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java8-feature/src/main/java/com/slxsm/lambda/PersonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java8-feature/src/main/java/com/slxsm/lambda/PredicateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java8-feature/src/main/java/com/slxsm/lambda/PredicateTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java8-feature/src/main/java/com/slxsm/defaultmethod/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java8-feature/src/main/java/com/slxsm/defaultmethod/MyInterface1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java8-feature/src/main/java/com/slxsm/defaultmethod/MyInterface1Impl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java8-feature/src/main/java/com/slxsm/defaultmethod/MyInterface2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java8-feature/src/main/java/com/slxsm/jdk8/methodference/MethodReferenceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java8-feature/src/main/java/com/slxsm/jdk8/methodference/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java8-feature/src/main/java/com/slxsm/jdk8/methodference/StudentComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java8-feature/src/main/java/com/slxsm/lambda/BinaryOperatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java8-feature/src/main/java/com/slxsm/lambda/MethodReferenceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java8-feature/src/main/java/com/slxsm/lambda/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java8-feature/src/main/java/com/slxsm/lambda/SupplierTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java8-feature/src/main/java/com/slxsm/stream/StreamTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java8-feature/src/main/java/com/slxsm/stream/StreamTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java8-feature/src/main/java/com/slxsm/stream/StreamTest3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java8-feature/src/main/java/com/slxsm/stream/StreamTest4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java8-feature/src/main/java/com/slxsm/stream/StreamTest5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java8-feature/src/main/java/com/slxsm/stream/StreamTest6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java8-feature/src/main/java/com/slxsm/stream/StreamTest7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java8-feature/src/main/java/com/slxsm/stream/StreamTest8.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +36,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -48,6 +60,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1cXdcJ55eaWObb696ruaGjUOaQb" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -58,7 +73,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -66,13 +81,18 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunManager" selected="Application.PredicateTest2">
-    <configuration name="ConsumerThreadPoolMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.slxsm.threadpool.ConsumerThreadPoolMain" />
-      <module name="slxsm-threadpool" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.slxsm.defaultmethod" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.StreamTest8">
+    <configuration name="StreamTest4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.slxsm.stream.StreamTest4" />
+      <module name="java8-feature" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.slxsm.threadpool.*" />
+          <option name="PATTERN" value="com.slxsm.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.slxsm.lambda.PersonTest" />
+    <configuration name="StreamTest5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.slxsm.stream.StreamTest5" />
       <module name="java8-feature" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.slxsm.lambda.*" />
+          <option name="PATTERN" value="com.slxsm.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PredicateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.slxsm.lambda.PredicateTest" />
+    <configuration name="StreamTest6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.slxsm.stream.StreamTest6" />
       <module name="java8-feature" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.slxsm.lambda.*" />
+          <option name="PATTERN" value="com.slxsm.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PredicateTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.slxsm.lambda.PredicateTest2" />
+    <configuration name="StreamTest7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.slxsm.stream.StreamTest7" />
       <module name="java8-feature" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.slxsm.lambda.*" />
+          <option name="PATTERN" value="com.slxsm.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.slxsm.lambda.Test3" />
+    <configuration name="StreamTest8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.slxsm.stream.StreamTest8" />
       <module name="java8-feature" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.slxsm.lambda.*" />
+          <option name="PATTERN" value="com.slxsm.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PredicateTest2" />
-        <item itemvalue="Application.PredicateTest" />
-        <item itemvalue="Application.PersonTest" />
-        <item itemvalue="Application.Test3" />
-        <item itemvalue="Application.ConsumerThreadPoolMain" />
+        <item itemvalue="Application.StreamTest8" />
+        <item itemvalue="Application.StreamTest7" />
+        <item itemvalue="Application.StreamTest6" />
+        <item itemvalue="Application.StreamTest5" />
+        <item itemvalue="Application.StreamTest4" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +177,18 @@
       <workItem from="1590678950892" duration="1791000" />
       <workItem from="1591019419286" duration="4239000" />
       <workItem from="1591107633257" duration="3862000" />
-      <workItem from="1591280285713" duration="546000" />
+      <workItem from="1591280285713" duration="4115000" />
+      <workItem from="1591284549665" duration="15000" />
+      <workItem from="1592623932336" duration="2483000" />
+      <workItem from="1592921175500" duration="1068000" />
+      <workItem from="1592922701676" duration="2573000" />
+      <workItem from="1593440976241" duration="2759000" />
+      <workItem from="1593612294839" duration="4240000" />
+      <workItem from="1593957100426" duration="4223000" />
+      <workItem from="1594046628652" duration="3093000" />
+      <workItem from="1594218773625" duration="3036000" />
+      <workItem from="1595060553013" duration="623000" />
+      <workItem from="1595636825122" duration="2074000" />
     </task>
     <task id="LOCAL-00001" summary="lambda">
       <created>1591019576701</created>
@@ -166,7 +197,28 @@
       <option name="project" value="LOCAL" />
       <updated>1591019576701</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="lambda">
+      <created>1591280882602</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591280882602</updated>
+    </task>
+    <task id="LOCAL-00003" summary="lambda">
+      <created>1591280915717</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591280915717</updated>
+    </task>
+    <task id="LOCAL-00004" summary="lambda">
+      <created>1591280984203</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1591280984203</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,62 +229,98 @@
     <option name="LAST_COMMIT_MESSAGE" value="lambda" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="105" key="#com.intellij.ide.util.MemberChooser" timestamp="1591020846641">
+    <state x="574" y="105" key="#com.intellij.ide.util.MemberChooser" timestamp="1594219120960">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="105" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1591020846641" />
-    <state x="359" y="12" key="CommitChangelistDialog2" timestamp="1591280914637">
+    <state x="574" y="105" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1594219120960" />
+    <state x="829" y="78" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1594219682403">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="359" y="12" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1591280914637" />
-    <state x="147" y="65" key="DiffContextDialog" timestamp="1591019569523">
+    <state x="829" y="78" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1536.824@0.0.1536.824" timestamp="1594219682403" />
+    <state x="359" y="12" key="CommitChangelistDialog2" timestamp="1591280983307">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="147" y="65" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1591019569523" />
+    <state x="359" y="12" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1591280983307" />
+    <state width="447" height="466" key="DebuggerActiveHint" timestamp="1594220181354">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="447" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1594220181354" />
+    <state x="99" y="150" width="1228" height="687" key="DiffContextDialog" timestamp="1591281042435">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="99" y="150" width="1228" height="687" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1591281042435" />
     <state x="775" y="113" key="FileChooserDialogImpl" timestamp="1590680420272">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="775" y="113" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1590680420272" />
-    <state width="1493" height="262" key="GridCell.Tab.0.bottom" timestamp="1591111724181">
+    <state width="814" height="173" key="GridCell.Tab.0.bottom" timestamp="1594222162549">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="262" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591111724181" />
-    <state width="1493" height="262" key="GridCell.Tab.0.center" timestamp="1591111724181">
+    <state width="814" height="173" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594222162549" />
+    <state width="814" height="173" key="GridCell.Tab.0.center" timestamp="1594222162547">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="262" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591111724181" />
-    <state width="1493" height="262" key="GridCell.Tab.0.left" timestamp="1591111724181">
+    <state width="814" height="173" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594222162547" />
+    <state width="814" height="173" key="GridCell.Tab.0.left" timestamp="1594222162547">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="262" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591111724181" />
-    <state width="1493" height="262" key="GridCell.Tab.0.right" timestamp="1591111724181">
+    <state width="814" height="173" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594222162547" />
+    <state width="814" height="173" key="GridCell.Tab.0.right" timestamp="1594222162548">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="262" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591111724181" />
+    <state width="814" height="173" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594222162548" />
+    <state width="814" height="173" key="GridCell.Tab.1.bottom" timestamp="1594222162550">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="814" height="173" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594222162550" />
+    <state width="814" height="173" key="GridCell.Tab.1.center" timestamp="1594222162550">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="814" height="173" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1594222162550" />
+    <state width="814" height="173" key="GridCell.Tab.1.left" timestamp="1594222162550">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="814" height="173" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1594222162550" />
+    <state width="814" height="173" key="GridCell.Tab.1.right" timestamp="1594222162550">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="814" height="173" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1594222162550" />
+    <state x="477" y="129" key="MultipleFileMergeDialog" timestamp="1591281008703">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="477" y="129" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1591281008703" />
     <state x="498" y="0" key="SettingsEditor" timestamp="1591020691738">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1591020691738" />
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1591020696054">
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1591281040458">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1591020696054" />
-    <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1591280542105">
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1591281040458" />
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1595636833103">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1591280542105" />
-    <state x="463" y="214" key="git4idea.merge.GitPullDialog" timestamp="1591280932891">
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1595636833103" />
+    <state x="746" y="138" width="755" height="548" key="find.popup" timestamp="1594219895256">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="463" y="214" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1591280932891" />
+    <state x="746" y="138" width="755" height="548" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1594219895256" />
+    <state x="463" y="214" key="git4idea.merge.GitPullDialog" timestamp="1591280999863">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="463" y="214" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1591280999863" />
     <state x="356" y="133" key="new project wizard" timestamp="1590679105023">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="356" y="133" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1590679105023" />
-    <state x="154" y="150" width="672" height="678" key="search.everywhere.popup" timestamp="1591280746216">
+    <state x="425" y="187" key="run.anything.popup" timestamp="1594048804768">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="154" y="150" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1591280746216" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1594048804768" />
+    <state x="154" y="150" width="672" height="678" key="search.everywhere.popup" timestamp="1593443425302">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="154" y="150" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1593443425302" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -241,6 +329,24 @@
           <url>file://$PROJECT_DIR$/slxsm-threadpool/src/main/java/com.slxsm.threadpool/ConsumerThreadPoolExecutors.java</url>
           <line>62</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java8-feature/src/main/java/com/slxsm/jdk8/methodference/MethodReferenceTest.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java8-feature/src/main/java/com/slxsm/stream/StreamTest8.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/java8-feature/src/main/java/com/slxsm/lambda/MethodReferenceDemo.java</url>
+          <line>15</line>
+          <properties class="com.slxsm.lambda.MethodReferenceDemo" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
